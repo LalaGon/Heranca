@@ -40,7 +40,7 @@ public class Gerente extends Funcionario {
 
 	
 	public double getBonificacao() {
-		return this.salario * 0.10 + 1000;   //return super.getBonificacao() + 1000; não esta funcionando desse jeito
+		return this.salario * 0.10 + 1000;   //return super.getBonificacao() + 1000; 
 	}
 	
 	public void autentica(int senha) {
